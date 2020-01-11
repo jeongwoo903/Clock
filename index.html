@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css_reset.css" />
+  </head>
+  <body onload="refreshTime(), refreshDay()">
+    <div class="container">
+      <div class="year"></div>
+      <div class="month"></div>
+      <div class="day-num"></div>
+      <div class="day-name"></div>
+      <div class="hours">
+        <div class="hours-time"></div>
+        <div class="am-pm"></div>
+      </div>
+      <div class="time">
+        <div class="minutes"></div>
+        <div class="seconds"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
