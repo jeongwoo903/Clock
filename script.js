@@ -1,4 +1,3 @@
-const container = document.querySelector(".container");
 const year = document.querySelector(".year");
 const month = document.querySelector(".month");
 const dayNum = document.querySelector(".day-num");
